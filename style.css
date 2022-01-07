@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #19191b;
+  color: #ffffff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  width: 100%;
+  padding: 12px 5%;
+}
+.header .logo {
+  padding-left: 5%;
+}
+.header .logo img {
+  padding-right: 12px;
+}
+.header .logo h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 39.2px;
+}
+.header .login {
+  padding-right: 120px;
+}
+/* ------------- */
+.body_top {
+  max-width: 100%;
+  color: #ffffff;
+}
+.container-top {
+  width: 100%;
+}
+.container-top_left {
+  width: 50%;
+  float: left;
+  padding-left: 120px;
+  padding-top: 155px;
+  display: flex;
+  justify-content: space-between;
+}
+.container-top_left1_text {
+  width: 582px;
+  font-family: Graphik;
+}
+.container-top_left1_text h1 {
+  max-width: 582px;
+  font-size: 80px;
+  line-height: 84px;
+  font-weight: 700px;
+}
+.container-top_left1_text p {
+  font-size: 21px;
+  line-height: 39px;
+  font-weight: 400;
+}
+.container-top_left1_img {
+  position: relative;
+  box-sizing: border-box;
+  transform: rotate(-5.66deg);
+}
+.container-top_left1_img .vecter13 {
+  position: absolute;
+  left: 20px;
+}
+.container-top_left1_img .vecter2 {
+  position: absolute;
+  top: 350px;
+}
+.container-top_left1_img .vecter3 {
+  position: absolute;
+  top: 370px;
+  left: 10px;
+}
+
+.container-top_right {
+  width: 50%;
+  float: right;
+  position: relative;
+  padding-top: 155px;
+}
+.top-right-icon1{
+  position: absolute;
+  top:510px;
+  right: 10%;
+}
+.top-right-icon2{
+  position: absolute;
+  top:150px;
+  right: 10%;
+}
+.top-right-icon3{
+  position: absolute;
+  top:170px;
+  right: 11%;
+}
+.container-top_right-img {
+  position: absolute;
+  right: 20%;
+}
+.container-center {
+  width: 100%;
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+.container-center_h1 {
+  width: 25%;
+}
+.container-center_p {
+  width: 35%;
+  padding-left: 5%;
+}
+.container-center_img {
+  position: relative;
+}
+.container-center_img .imgge4 {
+  width: 1200px;
+  height: 670px;
+  margin: 50px 120px;
+}
+.container-center_img .oval {
+  position: absolute;
+  left: 658px;
+  top: 323px;
+  border-radius: 50%;
+}
+.container-center_img .path {
+  position: absolute;
+  top: 370px;
+  left: 705px;
+  background: #5454d4;
+}
+.container-center2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+  position: relative;
+}
+.container-center2-img .polygon2 {
+position: absolute;
+left: 100px;
+top: 100px;
+
+}
+.container-center2-img .polygon3 {
+    position: absolute;
+    left: 110px;
+    top: 120px;
+  }
+.container-center2-icon img{
+    position: absolute;
+    top: 110px;
+    right:13%;
+    
+}
+.container-card{
+    display: flex;
+   justify-content: center;
+   font-family: 'Nunito Sans', sans-serif;
+
+}
+.container-card-top .card{
+    margin: 10%;
+
+}
+.container-card-center .card{
+    margin: 10%;
+
+}
+.container-card-bottom   .card{
+    margin: 10%;
+
+}
+.icon{
+padding-left: 15%;
+}
+.container-centem3{
+  position: relative;
+  padding-top: 10%;
+}
+.container-centem3 h1{
+  position: absolute;
+  top:50px;
+  left: 10%;
+}
+.container-contem3-img {
+  position: relative;
+}
+.container-contem3-img .img29{
+position: absolute;
+width: 336px;
+height: 253px;
+left: 152px;
+top: 76px;
+
+}
+.container-contem3-img .img28{
+  position: absolute;
+  width: 336px;
+  height: 253px;
+  left: 600px;
+  top: 150px;
+  
+  }
+  .container-contem3-img .img30{
+    position: absolute;
+    width: 336px;
+    height: 253px;
+    left: 1060px;
+    top: 300px;
+    }
+   .container-contem4{
+     padding-top: 40%;
+   }
+   .container-contem4 .icon-contem4-bottom{
+   margin-top:10%;
+   float: right;
+   padding-right: 10%;
+   }
+   .container-contem4 .icon-contem4-top{
+    float: left;
+    padding-left: 10%;
+    }
+    .footer_top{
+      padding-top: 15%;
+    }
+    .col-6 h1{
+      width: 826px;
+      padding-left: 120px;
+    }
+    .col-6 button{
+      margin-left: 40%;
+      margin-top: 5%;
+    }
+ .col-6-icon{
+  position: relative;
+ }
+ .col-6-icon .img58{
+   position: absolute;
+   left: 25%;
+   top: 10%;
+ }
+ .col-6-icon .img57{
+  position: absolute;
+  left: 22%;
+  top: 10%;
+}
+.footer_bottom{
+  padding-top: 10%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5%;
+}
+.footer-logo{
+  padding-left: 10%;
+}
+.footer-text{
+  padding-right: 10%;
+}
+ @media only screen and (max-width:46.1875em){
+  .container-top_left{
+    width: 100%;
+  }
+
+ }
+
+ 
